@@ -1,7 +1,7 @@
 package com.netflix.clone.video_service.model;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.ManyToOne;
+// import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

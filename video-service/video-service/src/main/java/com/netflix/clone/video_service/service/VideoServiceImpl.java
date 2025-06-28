@@ -62,6 +62,12 @@ public class VideoServiceImpl implements VideoInterface {
         videoRepository.deleteById(id);
     }
 
+    @Override
+    public VideoDTO updateVideo(Long id, VideoDTO videoDTO) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'updateVideo'");
+    }
+
     // @Override
     // public VideoDTO updateVideo(Long id, VideoDTO videoDTO) {
     //     // Implementation for updating a video by ID
